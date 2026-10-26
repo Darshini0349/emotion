@@ -79,7 +79,7 @@ def main():
     topic = input("What topic do you want to learn? ").strip() or "recursion"
     level = input("Level (beginner/advanced) [beginner]: ").strip().lower() or "beginner"
 
-    print(f"\n--- Explanation ({level}) ---")
+    print(f"\n--- Explain ({level}) ---")
     print(explain_topic(topic, level))
 
     print(f"\n--- Quick Quiz ---")
