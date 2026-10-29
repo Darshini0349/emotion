@@ -30,11 +30,15 @@ from sklearn.metrics import (
 
 
 def main():
+<<<<<<< HEAD
     print("=====Breast Cancer Detection (real Wisconsin dataset) ===")
+=======
+    print("======= Breast Cancer Detection (real Wisconsin dataset) ========")
+>>>>>>> fix1
     data = load_breast_cancer()
     X, y = data.data, data.target
     # In this dataset: 0 = malignant, 1 = benign.
-    print(f"Dataset---- {X.shape[0]} cases, {X.shape[1]} features")
+    print(f"Dataset: {X.shape[0]} cases, {X.shape[1]} features")
     print(f"Class balance: {np.sum(y==1)} benign, {np.sum(y==0)} malignant")
 
     X_train, X_test, y_train, y_test = train_test_split(
