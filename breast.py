@@ -30,11 +30,7 @@ from sklearn.metrics import (
 
 
 def main():
-<<<<<<< HEAD
     print("=====Breast Cancer Detection (real Wisconsin dataset) ===")
-=======
-    
->>>>>>> fix1
     data = load_breast_cancer()
     X, y = data.data, data.target
     # In this dataset: 0 = malignant, 1 = benign.
