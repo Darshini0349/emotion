@@ -95,7 +95,7 @@ def main():
             print("  ✅ Correct!")
         else:
             correct_letter = chr(65 + question["correct"])
-            print(f"  ❌ The answer was {correct_letter}.")
+            print(f" The answer was {correct_letter}.")
             struggled.append(question["q"])
 
     print("\n--- Progress ---")
