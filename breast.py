@@ -33,7 +33,7 @@ def main():
 <<<<<<< HEAD
     print("=====Breast Cancer Detection (real Wisconsin dataset) ===")
 =======
-    print("======= Breast Cancer Detection (real Wisconsin dataset) ========")
+    
 >>>>>>> fix1
     data = load_breast_cancer()
     X, y = data.data, data.target
