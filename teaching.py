@@ -92,7 +92,7 @@ def main():
         ans = input("Your answer (A/B/C/D): ").strip().upper()
         chosen = ord(ans) - 65 if ans in "ABCD" else -1
         if chosen == question["correct"]:
-            print("  ✅ Correct!")
+            print("   Correct!")
         else:
             correct_letter = chr(65 + question["correct"])
             print(f" The answer was {correct_letter}.")
