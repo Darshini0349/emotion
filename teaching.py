@@ -98,7 +98,7 @@ def main():
             print(f" The answer was {correct_letter}.")
             struggled.append(question["q"])
 
-    print("\n--- Progress is ib processs------")
+    print("\n--- Progress ---")
     if struggled:
         print(f"Concepts to review ({len(struggled)}):")
         for q in struggled:
